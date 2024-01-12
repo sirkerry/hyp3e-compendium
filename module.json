@@ -1,0 +1,119 @@
+{
+  "id": "hyperborea-3e-compendium",
+  "title": "Hyperborea 3e Compendium",
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "hyp3e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Premium content for the Hyperborea 3rd Edition game system.",
+  "authors": [
+    {
+      "name": "ThurianKnight",
+      "email": "thurianknight@gmail.com",
+      "discord": "thurianknight"
+    }
+  ],
+  "packs": [
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "class-abilities-and-features",
+      "label": "Class Abilities & Features",
+      "path": "packs/class-abilities-and-features",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "JournalEntry",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "treasure-classes",
+      "label": "Treasure Classes",
+      "path": "packs/treasure-classes",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hyp3e"
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hyp3e"
+    }
+  ],
+  "url": "https://github.com/thurianknight/hyp3e-compendium",
+  "manifest": "https://github.com/thurianknight/hyp3e-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/thurianknight/hyp3e-compendium/releases/latest/download/hyp3e-compendium.zip"
+}
