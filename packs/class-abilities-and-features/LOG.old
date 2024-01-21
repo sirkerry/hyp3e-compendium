@@ -1,8 +1,15 @@
-2024/01/15-16:25:12.967641 30f9d7000 Recovering log #60
-2024/01/15-16:25:12.968067 30f9d7000 Delete type=0 #60
-2024/01/15-16:25:12.968104 30f9d7000 Delete type=3 #58
-2024/01/15-20:28:10.069591 30b263000 Level-0 table #65: started
-2024/01/15-20:28:10.069777 30b263000 Level-0 table #65: 0 bytes OK
-2024/01/15-20:28:10.070328 30b263000 Delete type=0 #63
-2024/01/15-20:28:10.070896 30b263000 Manual compaction at level-0 from '!folders!6KgbuHBinjSCS7UX' @ 72057594037927935 : 1 .. '!items!zx3uTp8s4moWCeSH' @ 0 : 0; will stop at (end)
-2024/01/15-20:28:10.071385 30b263000 Manual compaction at level-1 from '!folders!6KgbuHBinjSCS7UX' @ 72057594037927935 : 1 .. '!items!zx3uTp8s4moWCeSH' @ 0 : 0; will stop at (end)
+2024/01/20-18:19:34.955900 30a6d8000 Recovering log #112
+2024/01/20-18:19:34.956252 30a6d8000 Delete type=0 #112
+2024/01/20-18:19:34.956281 30a6d8000 Delete type=3 #110
+2024/01/20-19:46:06.981112 304d4b000 Level-0 table #117: started
+2024/01/20-19:46:06.983234 304d4b000 Level-0 table #117: 168414 bytes OK
+2024/01/20-19:46:06.983491 304d4b000 Delete type=0 #115
+2024/01/20-19:46:06.984874 304d4b000 Manual compaction at level-0 from '!folders!6KgbuHBinjSCS7UX' @ 72057594037927935 : 1 .. '!items!zx3uTp8s4moWCeSH' @ 0 : 0; will stop at (end)
+2024/01/20-19:46:06.984915 304d4b000 Manual compaction at level-1 from '!folders!6KgbuHBinjSCS7UX' @ 72057594037927935 : 1 .. '!items!zx3uTp8s4moWCeSH' @ 0 : 0; will stop at '!items!zx3uTp8s4moWCeSH' @ 1235 : 1
+2024/01/20-19:46:06.984920 304d4b000 Compacting 1@1 + 1@2 files
+2024/01/20-19:46:06.988330 304d4b000 Generated table #118@1: 378 keys, 228367 bytes
+2024/01/20-19:46:06.988359 304d4b000 Compacted 1@1 + 1@2 files => 228367 bytes
+2024/01/20-19:46:06.988444 304d4b000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/01/20-19:46:06.988502 304d4b000 Delete type=2 #117
+2024/01/20-19:46:06.988658 304d4b000 Delete type=2 #101
+2024/01/20-19:46:06.989670 304d4b000 Manual compaction at level-1 from '!items!zx3uTp8s4moWCeSH' @ 1235 : 1 .. '!items!zx3uTp8s4moWCeSH' @ 0 : 0; will stop at (end)
