@@ -69,9 +69,31 @@
       }
     },
     {
-      "name": "equipment",
-      "label": "Equipment",
-      "path": "packs/equipment",
+      "name": "equipment-general",
+      "label": "Equipment - General",
+      "path": "packs/equipment-general",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment-provisions",
+      "label": "Equipment - Provisions",
+      "path": "packs/equipment-provisions",
+      "type": "Item",
+      "system": "hyp3e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment-religious",
+      "label": "Equipment - Religious",
+      "path": "packs/equipment-religious",
       "type": "Item",
       "system": "hyp3e",
       "ownership": {
